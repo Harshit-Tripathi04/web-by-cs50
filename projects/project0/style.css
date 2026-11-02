@@ -1,0 +1,28 @@
+body {
+   background-color: hsl(221, 72%, 28%);
+}
+form {
+    text-align: center;
+    margin-top: 50px;
+    input[type="text"] {
+         background-color: hsl(221, 72%, 28%);  
+         border-radius: 20px;
+         width: 300px;
+         padding: 15px;
+         font-size: 16px;
+         margin-right: -120px;
+    }
+    input[type="submit"] {
+         background-color: hsl(222, 6%, 55%);
+         border-radius: 20px;
+         &:hover {
+             background-color: #2f1be4;
+         }
+      }
+
+}
+#google {
+    text-align:center;
+    margin-top: 100px;
+    font-family: Courier, monospace;
+}
