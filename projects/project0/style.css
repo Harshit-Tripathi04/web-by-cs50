@@ -1,3 +1,18 @@
+header {
+    text-align: right;
+    margin: 0;
+   a {
+      button {
+         background-color: hsl(222, 6%, 55%);
+         border-radius: 10px;
+         padding: 5px;
+         &:hover {
+             background-color: #c6e41b;
+         }
+      }
+
+   }
+}
 body {
    background-color: hsl(221, 72%, 28%);
 }
@@ -14,7 +29,8 @@ form {
     }
     input[type="submit"] {
          background-color: hsl(222, 6%, 55%);
-         border-radius: 20px;
+         border-radius: 25px;
+         padding: 15px;
          &:hover {
              background-color: #2f1be4;
          }

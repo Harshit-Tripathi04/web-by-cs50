@@ -3,8 +3,21 @@
    <head>
       <title>google advance</title>
       <link rel="stylesheet" href="style.css">
+       <link rel="icon" href="https://img.icons8.com/fluency/48/google-logo.png" type="image/x-icon">
    </head>
-   <body> 
-      <h1>Google Advance</h1>
+   <header>
+      <a href="index.html"><button id="google-search">google</button></a>
+      <a href="image.html"><button id="image-search">image search</button></a>
+   </header>
+   <body>
+      
+      <h1 id="google">Google Advance search</h1>
+      <form action="https://google.com/search">
+         <p><input type="text" name="as_q" placeholder="All these words" id="search"></p>
+         <p><input type="text" name="as_epq" placeholder="This exact word or phrase" id="search"></p>
+         <p><input type="text" name="as_eq" placeholder="None of these words" id="search"></p>
+         <p><input type="text" name="as_oq" placeholder="Any of these words" id="search"></p>
+         <input type="submit" value="Google image">
+      </form>
    </body>
 </html>
